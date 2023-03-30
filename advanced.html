@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Advanced Search</title>
+            <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <li><a href="index.html">Go back to Google Search</a></li>
+        </nav>
+        <form action="https://google.com/search?as_q" id="advanced-search-container">
+            <h2 id="advanced-search-title">Advanced Search</h2>
+            <h3 id="advanced-search-subheading">Find pages with...</h3>
+            <div class="row">
+                <div class="query-type">all these words: </div><input type="text" name="as_q" class="advanced-search-box" autofocus="autofocus">
+            </div>
+            <div class="row">
+                <div class="query-type">this exact word or phrase: </div><input type="text" name="as_epq" class="advanced-search-box">
+            </div>
+            <div class="row">
+                <div class="query-type"> any of these words: </div><input type="text" name="as_oq" class="advanced-search-box">
+            </div>
+            <div class="row">
+                <div class="query-type"> none of these words: </div><input type="text" name="as_eq" class="advanced-search-box">
+            </div>
+            <div id="advanced-search-button-wrapper">
+                <input type="submit" value="Google Advanced Search" id="advanced-search-button">
+            </div>
+        </form>
+        <footer>
+            <div id="footer-text">
+                This website was created by Samantha Vanderburgh as a project for <a href="https://cs50.harvard.edu/web/2020/projects/1/wiki/">CS50’s Web Programming with Python and JavaScript
+                OpenCourseWare</a> instructed by Brian Yu and David J. Malan.
+            </div>
+        </footer>
+    </body>
+</html>

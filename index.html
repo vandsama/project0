@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> 
-            My Site!
-        </title>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     </head>
     <body>
-        <h1>This is my GitHub Pages website!</h1>
+        <nav>
+            <li><a href="image.html">Go to Google Image Search</a></li>
+            <li><a href="advanced.html">Go to Google Advanced Search</a></li>
+        </nav>
+        <form action="https://google.com/search" class="search-container">
+            <h1 class="page-title">
+                <span class="letter-blue large-letter">0</span>
+                <span class="letter-red">.</span>
+                <span class="letter-yellow large-letter">H</span>
+                <span class="letter-blue">T</span>
+                <span class="letter-green">M</span>
+                <span class="letter-red">L</span>
+                <span class="letter-blue">,&nbsp</span>
+                <span class="letter-red large-letter">C</span>
+                <span class="letter-yellow">S</span>
+                <span class="letter-blue">S </span>
+                <span class="letter-green">&nbsp-&nbsp</span>
+                <span class="letter-red large-letter">P</span>
+                <span class="letter-blue">r</span>
+                <span class="letter-red">o</span>
+                <span class="letter-yellow">j</span>
+                <span class="letter-blue">e</span>
+                <span class="letter-green">c</span>
+                <span class="letter-red">t</span>
+            </h1>
+            <div class="search-bar-wrapper">
+                <input type="text" name="q" class="search-bar" placeholder="Search Google or type a URL" autofocus="autofocus">
+            </div>
+            <div class="search-buttons">
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky" name="btnI">
+            </div>
+        </form>
+        <footer>
+            <div id="footer-text">
+            This website was created by Samantha Vanderburgh as a project for <a href="https://cs50.harvard.edu/web/2020/projects/1/wiki/">CS50’s Web Programming with Python and JavaScript
+            OpenCourseWare</a> instructed by Brian Yu and David J. Malan.
+            </div>
+        </footer>
     </body>
 </html>
