@@ -23,9 +23,14 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 15px 20px 15px 20px;
-    text-color: #202124;
+    color: #202124;
     font-size: 14px;
     background: #f2f2f2;
+
+}
+
+footer a {
+    text-decoration: underline;
 }
 
 #footer-text {
